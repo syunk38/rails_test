@@ -25,4 +25,4 @@ def secure_token
 end
 
 SampleApp::Application.config.secret_key_base = secure_token
-# SampleApp::Application.config.secret_key_base = 'fc0c0746da93ca1af47307466a9beec8b4af61928b5b08072586060cf6c8e4942f39872a9f636200cc6ef73e25e56957b9435682788c6dc16a17f605859f9766'
+# hogeSampleApp::Application.config.secret_key_base = 'fc0c0746da93ca1af47307466a9beec8b4af61928b5b08072586060cf6c8e4942f39872a9f636200cc6ef73e25e56957b9435682788c6dc16a17f605859f9766'
